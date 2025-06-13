@@ -1,5 +1,6 @@
 import React from "react";
 import hero from "../../public/assets/hero.png";
+import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <section id="home" className=" bg-amber-50 scroll-mt-20 py-16">
