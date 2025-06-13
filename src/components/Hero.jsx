@@ -15,21 +15,19 @@ const Hero = () => {
             velit dolorem
           </p>
           <div className="flex justify-center lg:justify-start gap-4">
-            <a
-              href="/products"
+            <Link to="/products"
               className="px-6 py-3 bg-pink-900 text-white text-sm font-semibold rounded-1g
                   shadow hover:bg-pink-600 transition "
             >
               Shop Now
-            </a>
+            </Link>
 
-            <a
-              href="/products"
+             <Link to="/products"
               className="px-6 py-3 border border-pink-500 text-pink-600 text-sm font-semibold
               rounded-1g hover:bg-pink-200 transition"
             >
               View Offers
-            </a>
+            </Link>
           </div>
         </div>
         <div className="w-full lg:w-1/2 flex justify-center">
