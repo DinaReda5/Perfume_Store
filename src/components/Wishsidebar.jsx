@@ -47,7 +47,7 @@ const WishSidebar = ({ isOpen, onClose, wishItems, removeFromWish }) => {
                   aria-label={`Remove ${item.name} from wish`}
                   className="text-red-500 hover:text-red-700 ml-2"
                 >
-                  <FiX size={20} />
+                 X
                 </button>
               </div>
             ))
