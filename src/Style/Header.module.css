@@ -1,0 +1,20 @@
+.buttonLink {
+  background-color: #026ec1;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.DivButton {
+    display: flex;
+    justify-content: flex-end;
+}
