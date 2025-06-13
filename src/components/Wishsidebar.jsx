@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiChevronUp, FiChevronDown, FiX } from 'react-icons/fi';
+
 
 const WishSidebar = ({ isOpen, onClose, wishItems, removeFromWish }) => {
 
@@ -13,7 +13,7 @@ const WishSidebar = ({ isOpen, onClose, wishItems, removeFromWish }) => {
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-semibold">Your Wish</h2>
           <button onClick={onClose} aria-label="Close wish sidebar" className="text-gray-600 hover:text-black">
-            <FiX size={24} />
+           X
           </button>
         </div>
 
